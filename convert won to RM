@@ -1,0 +1,15 @@
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+class convertWon
+{
+    public static void main (String[] args){
+        Scanner sc=new Scanner(System.in);
+        DecimalFormat dc=new DecimalFormat("0.00");
+        
+        double won=sc.nextDouble();
+        double totalrm=won*0.0033;
+        System.out.println("RM " + dc.format(totalrm));
+    }
+}
+            
